@@ -119,6 +119,7 @@
 		<input type="button" value="등록" onclick="update();">
 		<input type="button" value="조회" onclick="Location.href='member_list.jsp';">
 		</td>
+	</tr>
 </table>
 </form>
 </section>
