@@ -17,7 +17,7 @@ function update(){
 		alert("환자코드를 입력하세요!");
 		return false;
 	}
-	else if(document.forms.form.tbl_lab_test_202004.value.trim() == "lat_name"){
+	else if(document.forms.form.t_code.value.trim() == "lat_name"){
 		alert("검사명을 선택하세요!");
 		return false;
 	}
@@ -60,13 +60,13 @@ function update(){
 			</tr>
 			<tr>
 				<td>검사명</td>
-				<td><select name = "tbl_lab_test_202004">
+				<td><select name = "t_code">
 					<option value="lat_name" selected> 검사명
-					<option value="t00"> [T001]결핵
-					<option value="t00"> [T002]장티푸스
-					<option value="t00"> [T003]수두
-					<option value="t00"> [T004]홍역
-					<option value="t00"> [T005]콜레라
+					<option value="t001"> [T001]결핵
+					<option value="t002"> [T002]장티푸스
+					<option value="t003"> [T003]수두
+					<option value="t004"> [T004]홍역
+					<option value="t005"> [T005]콜레라
 				</select></td>
 			</tr>
 			<tr>
@@ -75,7 +75,7 @@ function update(){
 			</tr>
 			<tr>
 				<td>검사상태</td>
-				<td><input type="radio" name = "t_status">검사 중  <input type="radio" name = "t_status">검사 완료</td>
+				<td><input type="radio" name = "t_status" value="1">검사 중  <input type="radio" name = "t_status" value="2">검사 완료</td>
 			</tr>
 			<tr>
 				<td>검사완료일</td>
@@ -83,7 +83,7 @@ function update(){
 			</tr>
 			<tr>
 				<td>검사결과</td>
-				<td><input type="radio" name = "t_result">미입력 <input type="radio" name = "t_result">양성 <input type="radio" name = "t_result">음성 </td>
+				<td><input type="radio" name = "t_result" value="X">미입력 <input type="radio" name = "t_result" value="P">양성 <input type="radio" name = "t_result" value="2">음성 </td>
 			</tr>
 			<tr>
 				<td></td>
