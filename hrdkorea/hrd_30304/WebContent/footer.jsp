@@ -4,15 +4,14 @@
 <style>
 	footer{
 		position: fixed;
-		bottom: 0;
-		left: 0;
-		background-color: black;
-		color: white;
+		bottom: 0px;
+		left: 0px;
 		width: 100%;
 		height: 40px;
-		line-height: 40px;
-		text-align: center;
 		font-size: 30px;
+		text-align: center;
+		background-color: black;
+		color: white;
 	}
 </style>
-<footer>~~~~~~~~~~~~~</footer>
+<footer>Copyright @ 2023 All right reserved HRD</footer>

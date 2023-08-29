@@ -10,11 +10,13 @@
 		height: 20px;
 		background-color: gray;
 	}
+	a{
+		text-decoration: none;
+	}
 </style>
 <nav>
-	<a href="">오디션등록</a>&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="">참가자목록조회</a>&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="">멘토점수조회</a>&nbsp;&nbsp;&nbsp;&nbsp;
-	<a href="">참가자등수 조회</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="grade_insert.jsp">타자 성적 등록</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="grade_list_insert.jsp">개별 타자 성적 조회</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="all_grade_list.jsp">전체 타자 성적 조회</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	<a href="index.jsp">홈으로</a>&nbsp;&nbsp;&nbsp;&nbsp;
 </nav>

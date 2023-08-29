@@ -2,9 +2,9 @@
     pageEncoding="UTF-8"%>
 <meta charset="UTF-8">
 <style>
-	footer{
+	header{
 		position: fixed;
-		bottom: 0;
+		top: 0;
 		left: 0;
 		background-color: black;
 		color: white;
@@ -15,4 +15,4 @@
 		font-size: 30px;
 	}
 </style>
-<footer>~~~~~~~~~~~~~</footer>
+<header>(과정평가형 정보처리산업기사)오디션 관리 프로그램 ver 2019-06</header>

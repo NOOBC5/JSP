@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="patient" path="/patient" reloadable="true" source="org.eclipse.jst.jee.server:patient"/><Context docBase="cafe" path="/cafe" reloadable="true" source="org.eclipse.jst.jee.server:cafe"/><Context docBase="shopping" path="/shopping" reloadable="true" source="org.eclipse.jst.jee.server:shopping"/><Context docBase="voting" path="/voting" reloadable="true" source="org.eclipse.jst.jee.server:voting"/><Context docBase="cbq" path="/cbq" reloadable="true" source="org.eclipse.jst.jee.server:cbq"/><Context docBase="patient_01" path="/patient_01" reloadable="true" source="org.eclipse.jst.jee.server:patient_01"/></Host>
+      <Context docBase="hrd_30304" path="/hrd_30304" reloadable="true" source="org.eclipse.jst.jee.server:hrd_30304"/><Context docBase="hrdkorea06" path="/hrdkorea06" reloadable="true" source="org.eclipse.jst.jee.server:hrdkorea06"/><Context docBase="cbq" path="/cbq" reloadable="true" source="org.eclipse.jst.jee.server:cbq"/><Context docBase="cbq_30304" path="/cbq_30304" reloadable="true" source="org.eclipse.jst.jee.server:cbq_30304"/></Host>
     </Engine>
   </Service>
 </Server>
